@@ -1,5 +1,5 @@
 ---
-title: "{{ .Name | humanize | title }}"
+title: "{{ .Name }}"
 weight: 1
 # geekdocFlatSection: false
 # geekdocToc: 6

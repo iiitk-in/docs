@@ -1,0 +1,1 @@
+This section is for developers and administrators of Port0 itself and documents interals. If you are a developer who wants to integrate your applications with Port0, please refer to the [developer documentation]({{<ref "/Port0 (For developers)">}}).

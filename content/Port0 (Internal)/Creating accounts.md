@@ -1,8 +1,13 @@
-Assuming base URL: api.port0.iiitk.in
+---
+---
+
+{{<hint type=note title="Note" >}}
+This section is for developers and administrators of Port0 itself and documents interals. If you are a developer who wants to integrate your applications with Port0, please refer to the [developer documentation]({{<ref "/Port0 (For developers)">}}).
+{{< /hint >}}
 
 ## To initiate account creation, collect a valid IIITK email address from the user and send the follwing request to the server:
 
-{{< hint type=important title="Rate Limits" >}}
+{{<hint type=important title="Rate Limits" >}}
 This endpoint has strict rate limits.
 {{< /hint >}}
 
@@ -15,7 +20,7 @@ POST JSON /auth/register
 
 ## The server will send a verification OTP to the email address. Collect the OTP from the user and send the following request to the server:
 
-{{< hint type=important title="Rate Limits" >}}
+{{<hint type=important title="Rate Limits" >}}
 This endpoint has strict rate limits.
 {{< /hint >}}
 
