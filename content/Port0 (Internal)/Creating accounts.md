@@ -5,7 +5,7 @@
 This section is for developers and administrators of Port0 itself and documents interals. If you are a developer who wants to integrate your applications with Port0, please refer to the [developer documentation]({{<ref "/Port0 (For developers)">}}).
 {{< /hint >}}
 
-## To initiate account creation, collect a valid IIITK email address from the user and send the follwing request to the server:
+## To initiate account creation, collect a valid IIITK email address from the user and send the following request to the server:
 
 {{<hint type=important title="Rate Limits" >}}
 This endpoint has strict rate limits.
