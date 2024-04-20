@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = ""
 title = "IIITK.in Docs"
 theme = "hugo-geekdoc"
 
