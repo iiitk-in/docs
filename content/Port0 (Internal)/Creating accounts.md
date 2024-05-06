@@ -51,7 +51,7 @@ For the key hash use the following algorithm:
 
 5. Send the auth JWT, the salt, the SHA-256 hashed password and the 256 bit AES encrypted vault to the server.
 
-![Port0 Register Flow](/images/Register.jpg)
+![Port0 Register Flow](Register.jpg)
 
 {{< hint type=important title="Rate Limits" >}}
 This endpoint has strict rate limits.
