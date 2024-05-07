@@ -53,6 +53,7 @@ For the key hash use the following algorithm:
 
 ![Port0 Register Flow](Register.jpg)
 
+
 {{< hint type=important title="Rate Limits" >}}
 This endpoint has strict rate limits.
 {{< /hint >}}
