@@ -53,15 +53,15 @@ For the key hash use the following algorithm:
 
 ![Port0 Register Flow](Register.jpg)
 
-
 {{< hint type=important title="Rate Limits" >}}
 This endpoint has strict rate limits.
 {{< /hint >}}
 
 ```
 POST JSON /auth/create
+Authorization: Bearer <JWT>
 {
-    "token": "<JWT>",
+
     "salt": "<PBKDF2 salt>",
     "keyHash": "<key hash>",
     "aes256Bit": "<aes256Bit String>",
